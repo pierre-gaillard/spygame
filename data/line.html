@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>just a line</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="scripts/verify.js"></script>
+  </head>
+  <body>
+    <h1>
+      Vous tombez devant un mur. Une ligne longue de plusieurs kilomètres.
+    </h1>
+    <p>
+      En vous approchant de ce mur, vous remarquez des inscriptions très étranges
+      semblables à des ronds et des barres avec des symboles au-dessus.<br><br>
+      Qui a bien pu faire cela?
+    </p>
+    <img class="a" src="image/inscription.png">
+    <img src="image/theline.png">
+
+    <input type="text" id="answer" maxlength="8" size="10">
+    <input type="button" value="verif" onclick="verifier()" />
+
+  </body>
+</html>
+
+<style>
+  body {
+    background-image: url("../spygame/image/desert.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+</style>

@@ -1,0 +1,29 @@
+body {
+	background-color : rgb(219 , 165 , 28);
+    width : 100 %
+	font-family: Arial, sans-serif;
+}
+
+p {
+	color: black;
+	font-size: 18px;
+	margin-left: 30px;
+}
+
+h1 {
+	color: black;
+	font-size: 27px;
+	margin-left: 50px;
+}
+
+area {
+    cursor: default;
+    display:block;
+}
+
+/*a {
+	color: orange;
+}
+button.link{
+	background:none;border:none;
+}*/
